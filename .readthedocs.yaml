@@ -13,3 +13,7 @@ sphinx:
   builder: dirhtml
   configuration: conf.py
   fail_on_warning: false
+
+python:
+   install:
+   - requirements: requirements.txt
