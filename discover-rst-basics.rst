@@ -149,6 +149,29 @@ documentation does a better job.
        The generic ``admonition`` directive allows you to provide a title, as
        above.
 
+Tables
+------
+
+There are multiple ways of building tables in rST, the simplest is the list
+table::
+
+    .. list-table::
+       :widths: 20 20 30
+       :header-rows: 1
+
+       * - Web framework
+         - Language
+         - First release
+       * - Django
+         - Python
+         - July 2005
+       * - Ruby on Rails
+         - Ruby
+         - August 2004
+       * - Laravel
+         - PHP
+         - June 2011
+
 
 Links
 -----
