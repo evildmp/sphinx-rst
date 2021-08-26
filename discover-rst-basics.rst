@@ -150,11 +150,6 @@ documentation does a better job.
        above.
 
 
-Sidebars
---------
-
-
-
 Links
 -----
 
