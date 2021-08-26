@@ -2,27 +2,36 @@
 Edit a file
 ===========
 
-Each page of the published documentation, such as :doc:`this very page
-<edit-file>` that you're reading now on Read The Docs, is maintained in a file
-in the GitHub repository for the documentation set - here's the
-`RestructuredText file for this page
-<https://github.com/evildmp/sphinx-rst/blob/master/edit-file.rst>`_.
+Each page of the published documentation on Read The Docs is maintained in a
+file in the GitHub repository for the documentation set.
 
-There's also a :doc:`Register page <register>`, containing a list of all the
-people who have done this tutorial. Now you're going to add yourself to that
-page, by editing the RestructuredText source file.
+The :doc:`Register page <register>` contains a list of all the people who have
+done this tutorial. Now you're going to add yourself to that page, by editing
+the RestructuredText source file.
 
-* Open https://github.com/evildmp/sphinx-rst/blob/master/register.rst.
-* Select the Edit this file icon.
-* Before doing anything else, select *Create a new branch for this commit and
-  start a pull request*.
-* Add a new line at the bottom of the list, following the example of existing
-  entries.
-* Make sure the file ends with a blank line.
-* Select the **Commit changes** button.
+
+Make the changes
+================
+
+#. Open https://github.com/evildmp/sphinx-rst/blob/master/register.rst.
+#. Select the *Edit this file* icon:
+
+   .. image:: images/edit-file.png
+      :alt: Alternative text
+
+#. Select *Create a new branch for this commit and start a pull request*.
+#. Add a new entry at the bottom of the list containing the date and a link to
+   your GitHub username (and optionally your own name). Follow the example of
+   existing entries.
+#. Make sure the file ends with a blank line.
+#. Select the **Commit changes** button.
 
 This will create a fork of the documentation repository in your own GitHub
 account.
+
+
+Make a pull request
+===================
 
 The next step is to create a pull request - a request to the maintainers to pull
 the changes from the branch you've just created: select **Create pull request**.
@@ -38,3 +47,18 @@ changes and edit the file again.)
 
 Once accepted, your changes will become part of the source code of this
 website. The new :doc:`Register page <register>` will contain your entry.
+
+
+What's next
+===========
+
+This is all you need in order to contribute to documentation that's maintained
+in Git, written in reStructuredText, published using Sphinx and hosted on Read
+the Docs.
+
+It's good enough for lightweight maintenance and small fixes. For more
+substantial documentation contributions, it's much more effective to work
+locally - writing, building and testing the documentation - then to push work
+to the Git repository.
+
+The next section covers the elements of that workflow, step-by-step.

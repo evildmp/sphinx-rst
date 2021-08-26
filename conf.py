@@ -28,6 +28,8 @@ author = 'Daniele Procida'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.intersphinx',
+    'sphinx_inline_tabs',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -50,3 +52,11 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+    'diataxis': ('https://diataxis.fr', None),
+    'spelling': ('https://sphinxcontrib-spelling.readthedocs.io/en/latest/', None),
+}
+
+spelling_lang='en_GB'
