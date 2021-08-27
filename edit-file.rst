@@ -29,7 +29,7 @@ Make the changes
    (Note the underscore at the end of the hyperlink markup.)
 
 #. Make sure the file ends with a blank line.
-#. Select the **Commit changes** button.
+#. Select the **Propose changes** button.
 
 This will create a fork of the documentation repository in your own GitHub
 account.
