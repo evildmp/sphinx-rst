@@ -24,7 +24,7 @@ Make the changes
    your GitHub username (and optionally your own name). Follow the example of
    existing entries.
 #. Make sure the file ends with a blank line.
-#. Select the **Commit changes** button.
+#. Select the **Propose changes** button.
 
 This will create a fork of the documentation repository in your own GitHub
 account.
