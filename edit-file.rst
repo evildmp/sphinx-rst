@@ -21,8 +21,13 @@ Make the changes
 
 #. Select *Create a new branch for this commit and start a pull request*.
 #. Add a new entry at the bottom of the list containing the date and a link to
-   your GitHub username (and optionally your own name). Follow the example of
-   existing entries.
+   your GitHub username (and optionally your own name). Follow the pattern of
+   existing entries::
+
+       * YYYY-MM-DD `username <https://github.com/username>`_ Your Name
+
+   (Note the underscore at the end of the hyperlink markup.)
+
 #. Make sure the file ends with a blank line.
 #. Select the **Commit changes** button.
 

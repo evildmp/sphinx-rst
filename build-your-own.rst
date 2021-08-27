@@ -15,6 +15,13 @@ You'll need to:
 * be familiar with the basics of Git
 * have Python 3 on your machine
 
+.. admonition:: Did you skip parts 1 and 2?
+
+    If so, before you continue, please add your name to the `register
+    <https://github.com/evildmp/sphinx-rst/blob/master/register.rst>`_ as
+    described in :doc:`part 2 <edit-file>`, by making a pull request or using
+    the GitHub interface.
+
 
 Install Sphinx
 ==============
