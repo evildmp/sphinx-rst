@@ -7,7 +7,7 @@ file in the GitHub repository for the documentation set.
 
 The :doc:`Register page <register>` contains a list of all the people who have
 done this tutorial. Now you're going to add yourself to that page, by editing
-the RestructuredText source file.
+the reStructuredText source file.
 
 
 Make the changes
