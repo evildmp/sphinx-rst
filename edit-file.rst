@@ -14,10 +14,10 @@ Make the changes
 ================
 
 #. Open https://github.com/evildmp/sphinx-rst/blob/master/register.rst.
-#. Select the *Edit this file* icon:
+#. Select the *Fork this project and edit this file* icon:
 
    .. image:: images/edit-file.png
-      :alt: Alternative text
+      :alt: Fork this project and edit this file
 
 #. Select *Create a new branch for this commit and start a pull request*.
 #. Add a new entry at the bottom of the list containing the date and a link to
@@ -42,16 +42,22 @@ The next step is to create a pull request - a request to the maintainers to pull
 the changes from the branch you've just created: select **Create pull request**.
 
 As soon as you create the pull request, Read The Docs will start rebuilding the
-site (you can see the `list of recent builds
-<https://readthedocs.org/projects/get-started-with-sphinx-and-rst/builds/>`_).
+site. In a few seconds, the build should be complete. Select *Build details* to see the version of the documentation that has just been built for you.
 
-If there are no errors preventing a successful build, you'll be able to view
-the version of the documentation based on your branch. (If there are errors,
-Read The Docs will show an error for the build; you'll have to check your
-changes and edit the file again.)
+.. image:: images/build.png
+   :alt: Build details
+
+Check that your changes in the *Register* page of your build look correct.
+
+You can also see the `full list of recent builds
+<https://readthedocs.org/projects/get-started-with-sphinx-and-rst/builds/>`_.
+
+Read The Docs will show any build errors - if this happens; you'll have to
+check your changes and edit the file again.
 
 Once accepted, your changes will become part of the source code of this
-website. The new :doc:`Register page <register>` will contain your entry.
+website. The newly-updated :doc:`Register page <register>` will contain your
+entry.
 
 
 What's next
