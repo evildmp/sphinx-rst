@@ -14,3 +14,4 @@ entries.
 * 2021-08-27 `pedroleaoc <https://github.com/pedroleaoc>`_ Pedro Cruz
 * 2021-08-29 `RodinGolodin <https://github.com/RodinGolodin>`_ Sergey Rodin
 * 2021-08-30 `pmatulis <https://github.com/pmatulis>`_ Peter Matulis
+* 2021-08-31 `facundobatista <https://github.com/facundobatista>`_ Facundo Batista
