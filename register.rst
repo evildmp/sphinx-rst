@@ -15,3 +15,4 @@ entries.
 * 2021-08-29 `RodinGolodin <https://github.com/RodinGolodin>`_ Sergey Rodin
 * 2021-08-30 `pmatulis <https://github.com/pmatulis>`_ Peter Matulis
 * 2021-08-31 `facundobatista <https://github.com/facundobatista>`_ Facundo Batista
+* 2022-01-13 `nottrobin <https://github.com/nottrobin>`_ Robin Winslow
