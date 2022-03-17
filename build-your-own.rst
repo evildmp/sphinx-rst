@@ -85,8 +85,8 @@ the entire contents of that file with something of your own, for example:
     All about my work
     =================
 
-    Hardware
-    ========
+    Some basic formatting
+    =====================
 
     .. sidebar:: This is a sidebar
 
@@ -99,8 +99,8 @@ the entire contents of that file with something of your own, for example:
     * item
 
 
-    Software
-    ========
+    Some links
+    ==========
 
     The list of links below appears in a ``seealso`` directive.
 
@@ -110,21 +110,21 @@ the entire contents of that file with something of your own, for example:
         * `Python <https://python.org>`_
 
 
-    Firmware
-    ========
+    Code
+    ====
 
     Sphinx has a number of parsers for automated language highlighting in
     code-blocks. It does a good job of guessing what language you're using,
-    but you can also state that explicitly.
+    but you can also state that explicitly as in this example:
 
- .. code-block:: bash
-    :emphasize-lines: 2-3
+     .. code-block:: bash
+        :emphasize-lines: 2-3
 
-    python3 -m venv sphinxenv
-    source sphinxenv/bin/activate
-    pip install sphinx
-    pip freeze > requirements.txt
-    sphinx-quickstart
+        python3 -m venv sphinxenv
+        source sphinxenv/bin/activate
+        pip install sphinx
+        pip freeze > requirements.txt
+        sphinx-quickstart
 
 And then rebuild with ``make html``, checking that there are no errors, and
 that the HTML output is what you expected.
