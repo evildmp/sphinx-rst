@@ -117,14 +117,14 @@ the entire contents of that file with something of your own, for example:
     code-blocks. It does a good job of guessing what language you're using,
     but you can also state that explicitly.
 
-    .. code-block:: bash
-       :emphasize-lines: 2-3
+ .. code-block:: bash
+    :emphasize-lines: 2-3
 
-        python3 -m venv sphinxenv
-        source sphinxenv/bin/activate
-        pip install sphinx
-        pip freeze > requirements.txt
-        sphinx-quickstart
+    python3 -m venv sphinxenv
+    source sphinxenv/bin/activate
+    pip install sphinx
+    pip freeze > requirements.txt
+    sphinx-quickstart
 
 And then rebuild with ``make html``, checking that there are no errors, and
 that the HTML output is what you expected.
