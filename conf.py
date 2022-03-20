@@ -30,6 +30,7 @@ author = 'Daniele Procida'
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_inline_tabs',
+    'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -38,7 +39,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'sphinxenv']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -59,4 +60,4 @@ intersphinx_mapping = {
     'spelling': ('https://sphinxcontrib-spelling.readthedocs.io/en/latest/', None),
 }
 
-spelling_lang='en_GB'
+spelling_lang = 'en_GB'
