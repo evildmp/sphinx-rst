@@ -37,7 +37,7 @@ Work through parts 1-4 below in sequence (if you want to jump straight to part
 Parts 1 and 2 introduce the basics of rST, and show how to use GitHub's web
 interface to make changes to documentation content.
 
-Parts 3 and 4 require some basic software skills. They cover creating a
+Parts 3 to 5 require some basic software skills. They cover creating a
 documentation project from scratch, customising it and publishing it using Read
 the Docs. They also introduce more complex rST/Sphinx functionality.
 
@@ -49,4 +49,5 @@ the Docs. They also introduce more complex rST/Sphinx functionality.
    discover-rst-basics
    edit-file
    build-your-own
+   improve-building
    publish

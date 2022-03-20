@@ -92,7 +92,7 @@ the entire contents of that file with something of your own, for example:
 
         This is the body of the sidebar.
 
-    **This strongly-emphasised text** will usually appears in bold. *Emphasis*
+    **This strongly-emphasised text** will usually appears in bold. *Emphasis *
     usually appears in italics.
 
     * item
@@ -298,75 +298,12 @@ So far, your documentation is using the default Alabaster Sphinx theme. Try the
 
     .. image:: images/furo-theme.png
 
---------
 
-Add automation for convenience
-==============================
+Quieten Sphinx
+==============
 
-Auto-build the documentation
-----------------------------
+Sphinx's output in the console is rather noisy - that's because right now, it's actually processing
+everything in your virtual environment, wholly unnecessarily. To tell it not to, edit the
+``exclude_patterns`` variable in ``conf.py``, so that it excludes the virtual environment too::
 
-Running ``make html`` each time you want to rebuild the documentation is
-tedious. It's much more elegant to have it rebuilt for you, and refreshed in
-the browser automatically on each change. `sphinx-autobuild
-<https://github.com/executablebooks/sphinx-autobuild>`_ will do this for you.
-
-.. code-block:: bash
-
-    pip install sphinx-autobuild
-    sphinx-autobuild . _build/html
-
-Your documentation is now served at http://127.0.0.1:8000.
-
-Even better, edit the ``Makefile``. Add::
-
-    run:
-    	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)"
-
-to it. Now you can start the server with ``make run``.
-
-
-Build in spelling checks
-------------------------
-
-:doc:`sphinxcontrib-spelling <spelling:index>` will check spelling for you.
-
-.. code-block:: bash
-
-    pip install sphinxcontrib-spelling
-
-It installs PyEnchant as a dependency, which in turn requires the Enchant C
-library. Install this - for example:
-
-.. code-block:: bash
-
-    apt-get install enchant
-
-Add sphinxcontrib-spelling to your project's extensions:
-
-.. code-block:
-   :emphasize-lines: 2
-
-    extensions = [
-        [...]
-        'sphinxcontrib.spelling',
-   ]
-
-The default language is US English, but you can set your own::
-
-    spelling_lang='en_GB'
-
-
-and run a spelling check:
-
-.. code-block:: bash
-
-    sphinx-build -b spelling . _build
-
-It will list what it thinks are misspelled words. Add false positives that it
-should ignore to the project's dictionary, ``spelling_wordlist.txt``.
-
-You can also add a ``make spelling`` command to the ``Makefile``::
-
-    spelling:
-    	sphinx-build -b spelling "$(SOURCEDIR)" "$(BUILDDIR)"
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'sphinxenv']

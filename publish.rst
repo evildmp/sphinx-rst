@@ -18,6 +18,7 @@ Initialise the project as a Git repository:
 Add a ``.gitignore`` file, containing at least::
 
     _build
+    sphinxenv
 
 and any other file patterns you want to exclude.
 
@@ -62,7 +63,7 @@ these are obvious, others that are worth checking include:
 
 * *Advanced*
 
-  * *Single version*: if this is a standalone documentation set, rather than
+  * *Single version*: useful if this is a standalone documentation set, rather than
     something that's part of a versioned code-base.
   * *Build pull requests for this project*: if you expect contributions and
     would like contributors' pull requests to create their own builds.
