@@ -93,8 +93,8 @@ They'll need to set up a virtual environment for it - but you can get the
 You should have a list variables being assigned near the top of the ``Makefile``.
 Add a new one:
 
-.. code-block::
-   :emphasize-lines: 5
+..  code-block::
+    :emphasize-lines: 5
 
     SPHINXOPTS    ?=
     SPHINXBUILD   ?= sphinx-build
@@ -118,7 +118,12 @@ Add a new ``install`` command::
     	  "spelling checks) to work. \n" \
     	  "--------------------------------------------------------------- \n"
 
-Try it; run::
+Then copy all the installed Python dependencies in the virtual environment into
+a ``requirements.txt`` file::
+
+    pip freeze > requirements.txt
+
+Now run::
 
     make install
 
@@ -126,13 +131,25 @@ It should create the virtual environment and install all the requirements in it.
 
 Now, we want that virtual environment to be activated for the ``run`` and ``spelling``
 commands too, so edit them appropriately, so that they run their instructions inside
-the virtual environment:
+this virtual environment:
 
-.. code-block::
-   :emphasize-lines: 2, 5
+..  code-block::
+    :emphasize-lines: 2, 5
 
     run:
     	. $(VENV); sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)"
 
     spelling:
     	. $(VENV); sphinx-build -b spelling "$(SOURCEDIR)" "$(BUILDDIR)"
+
+Quieten Sphinx
+==============
+
+Sphinx's output in the console will be rather noisy - that's because right now, it's actually
+processing everything in the ``sphinxenv`` virtual environment created inside your documentation
+project, wholly unnecessarily.
+
+To tell it not to, edit the ``exclude_patterns`` variable in ``conf.py``, so that it excludes the
+virtual environment too::
+
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'sphinxenv']

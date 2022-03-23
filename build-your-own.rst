@@ -92,8 +92,8 @@ the entire contents of that file with something of your own, for example:
 
         This is the body of the sidebar.
 
-    **This strongly-emphasised text** will usually appears in bold. *Emphasis *
-    usually appears in italics.
+    *Emphasis* usually appears in italics. **This strongly-emphasised text** will usually appear
+    in bold.
 
     * item
     * item
@@ -201,8 +201,8 @@ Link to a reference
 
 Add a *label* to a heading, for example:
 
-.. code-block:: rst
-   :emphasize-lines: 1
+..  code-block:: rst
+    :emphasize-lines: 1
 
     .. _software:
 
@@ -226,9 +226,9 @@ As you may have noticed in the examples given above, a link to a page or a
 reference will automatically use the target's name, but this can also be
 overridden. For example::
 
-    :ref:`All about Sphinx links <explore-sphinx-links>`
+    :ref:`All about software <software>`
 
-will produce :ref:`All about Sphinx links <explore-sphinx-links>`. This general
+will create a link to the *Software* heading, with the link text "All about software". This general
 pattern works for all kinds of link types.
 
 
@@ -297,13 +297,3 @@ So far, your documentation is using the default Alabaster Sphinx theme. Try the
         html_theme = "furo"
 
     .. image:: images/furo-theme.png
-
-
-Quieten Sphinx
-==============
-
-Sphinx's output in the console is rather noisy - that's because right now, it's actually processing
-everything in your virtual environment, wholly unnecessarily. To tell it not to, edit the
-``exclude_patterns`` variable in ``conf.py``, so that it excludes the virtual environment too::
-
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'sphinxenv']
