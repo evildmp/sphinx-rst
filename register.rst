@@ -20,4 +20,5 @@ entries.
 * 2022-01-13 `nottrobin <https://github.com/nottrobin>`_ Robin Winslow
 * 2022-03-24 `catsmith <https://github.com/catsmith>`_ Cat Smith
 * 2022-03-24 `tobejazz <https://github.com/tobejazz>`_ Tobias Sjögren
+* 2022-03-24 `OliverWoolland <https://github.com/OliverWoolland>`_ Oliver Woolland
 * 2022-03-24 `ghickman <https://github.com/ghickman>`_ George Hickman
