@@ -55,8 +55,8 @@ or (macOS with Brew)::
 
 Add ``sphinxcontrib-spelling`` to your project's extensions:
 
-.. code-block:
-   :emphasize-lines: 2
+.. code-block::
+   :emphasize-lines: 3
 
     extensions = [
         [...]
