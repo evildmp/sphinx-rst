@@ -23,3 +23,5 @@ entries.
 * 2022-03-24 `OliverWoolland <https://github.com/OliverWoolland>`_ Oliver Woolland
 * 2022-03-24 `ghickman <https://github.com/ghickman>`_ George Hickman
 * 2022-03-24 `leriomaggio <htttps://github.com/leriomaggio>`_ Valerio Maggio
+* 2022-03-24 `anjaleblanc <https://github.com/anjaleblanc>`_ Anja Le Blanc
+* 2022-03-24 `emmasimp <https://github.com/emmasimp>__ Emma Simpson
