@@ -55,18 +55,18 @@ or (macOS with Brew)::
 
 Add ``sphinxcontrib-spelling`` to your project's extensions:
 
-.. code-block:
-   :emphasize-lines: 2
+.. code-block::
+   :emphasize-lines: 3
 
     extensions = [
         [...]
         'sphinxcontrib.spelling',
    ]
 
-The default language is US English, but you can set your own::
+The default language is US English, but you can set your own, once again by editing the ``conf.py``
+file::
 
     spelling_lang = 'en_GB'
-
 
 and run a spelling check:
 
