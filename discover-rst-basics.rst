@@ -10,7 +10,10 @@ Create a sandbox page in the GitHub wiki
 
 You can experiment with rST in the GitHub Wiki. It's not a complete reStructuredText implementation, but it's enough to get started with.
 
-`Create a new page there for youself
+Log in at GitHub (if necessary create a new account). You need to be logged in for the following
+steps to work.
+
+`Create a new page there for yourself
 <https://github.com/evildmp/sphinx-rst/wiki/_new>`_.
 
 Then, set the *Edit mode* to *reStructuredText*:
