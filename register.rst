@@ -20,3 +20,4 @@ entries.
 * 2022-01-13 `nottrobin <https://github.com/nottrobin>`_ Robin Winslow
 * 2022-03-24 `catsmith <https://github.com/catsmith>`_ Cat Smith
 * 2022-03-24 `tobejazz <https://github.com/tobejazz>`_ Tobias Sjögren
+* 2022-03-24 `jfine2358 <https://github.com/jfine2358>`__ Jonathan Fine
