@@ -5,16 +5,21 @@ Edit a file
 Each page of the published documentation on Read The Docs is maintained in a
 file in the GitHub repository for the documentation set.
 
-The :doc:`Register page <register>` contains a list of all the people who have
-done this tutorial. Now you're going to add yourself to that page, by editing
-the reStructuredText source file.
+The :doc:`Register page <register>` that contains a list of all the people who
+have done this tutorial is one of those.
+
+In the following steps you will add yourself to that page, by editing the
+reStructuredText source file.
 
 
-Make the changes
-================
+.. _make-propose-changes:
+
+Make and propose changes in a file
+==================================
 
 #. Open https://github.com/evildmp/sphinx-rst/blob/master/register.rst.
-#. Select the *Fork this project and edit this file* icon:
+#. Select the **Edit** icon to *Fork this project and edit the file* (if you
+   don't see it, you're not logged in):
 
    .. image:: images/edit-file.png
       :alt: Fork this project and edit this file
@@ -55,7 +60,10 @@ You can also see the `full list of recent builds
 Read The Docs will show any build errors - if this happens; you'll have to
 check your changes and edit the file again.
 
-Once accepted, your changes will become part of the source code of this
+I will then need to merge your pull request into the repository - it
+requires my approval.
+
+Once it has been merged, your changes will become part of the source code of this
 website. The newly-updated :doc:`Register page <register>` will contain your
 entry.
 

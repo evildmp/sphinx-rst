@@ -4,6 +4,8 @@
 Register
 ========
 
+Refer to :ref:`make-propose-changes` for guidance on what to do here.
+
 Add today's date in year-month-day format and your GitHub username with a link
 to your GitHub profile page (and optionally your real name) to the list on this
 page. Add yourself to the bottom of the list. Follow the format of existing
