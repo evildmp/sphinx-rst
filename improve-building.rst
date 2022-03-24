@@ -63,10 +63,10 @@ Add ``sphinxcontrib-spelling`` to your project's extensions:
         'sphinxcontrib.spelling',
    ]
 
-The default language is US English, but you can set your own::
+The default language is US English, but you can set your own, once again by editing the ``conf.py``
+file::
 
     spelling_lang = 'en_GB'
-
 
 and run a spelling check:
 
