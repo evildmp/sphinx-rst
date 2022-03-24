@@ -17,3 +17,4 @@ entries.
 * 2021-08-31 `facundobatista <https://github.com/facundobatista>`_ Facundo Batista
 * 2022-01-13 `nottrobin <https://github.com/nottrobin>`_ Robin Winslow
 * 2022-03-24 `catsmith <https://github.com/catsmith>`_ Cat Smith
+* 2022-03-24 `tobejazz <https://github.com/tobejazz>`_ Tobias Sjögren
