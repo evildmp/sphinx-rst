@@ -29,3 +29,4 @@ entries.
 * 2022-03-24 `emmasimp <https://github.com/emmasimp>`_ Emma Simpson
 * 2022-03-24 `StevenMaude <https://github.com/StevenMaude>`_ Steven Maude
 * 2022-03-24 `jfine2358 <https://github.com/jfine2358>`_ Jonathan Fine
+* 2023-09-01 `alysonrose88 <https://github.com/alysonrose88>`_ Alyson Richens
