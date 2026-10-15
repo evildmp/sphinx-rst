@@ -30,7 +30,7 @@ author = 'Daniele Procida'
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx_inline_tabs',
-    'sphinxcontrib.spelling'
+   # 'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
